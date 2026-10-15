@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Training outputs and model artifacts
+model/*
+!model/.gitkeep
+training/checkpoints/
+outputs/
+results/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
