@@ -19,3 +19,11 @@ results/
 # Python tooling
 .pytest_cache/
 .mypy_cache/
+
+# Python and model-training artifacts
+.ipynb_checkpoints/
+models/checkpoint-*/
+models/*/checkpoint-*/
+
+# Temporary training outputs
+*.log
